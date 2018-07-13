@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1200px) {
+	
+	.header-top img {
+		max-height: 150px;
+		width: 150px;
+	}
+
+	.about {
+		flex-direction: column-reverse;
+	}
+
+	.card p {
+		margin-top: 70px;
+		font-size: 1.2em;
+	}
+
+	.about-text {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 25px;
+	}
+
+	.stack {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.stack h1 {
+		text-align: left;
+		font-size: 1.8em;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	
+	.header-top h2 {
+		font-size: 2.5em; 
+	}
+
+	.header-top p {
+		font-size: 1.2em; 
+	}
+
+	.header-top img {
+		max-height: 120px;
+		width: 120px;
+	}
+
+	.header-bottom p {
+		font-size: 1.2em;
+		height: 40px;
+		margin-top: -15px;
+	}
+
+	#arrow {
+		font-size: 1.2em;
+	}
+
+	.card {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.work {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.work h1 {
+		text-align: center;
+	}
+
+	.work-row {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+	}
+
+	#work-one {
+		margin-left: 0px; 
+	}
+
+	#work-three {
+		margin-left: 0px;
+	}
+
+	.card img {
+		margin-bottom: -10px;
+	}
+
+	.card p {
+		margin-top: 150px;
+		font-size: 2em;
+	}
+
+	.icons {
+		width: 50%;
+	}
+
+	.stack h1 {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav {
+		flex-direction: column;
+	}
+
+	nav li {
+		padding: 0 25px;
+		padding-bottom: 10px;
+	}
+
+	nav li:hover {
+		border-bottom: 2px solid var(--cream);
+		padding-bottom: 8px;
+	}
+
+	.header-top {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.header-top h2 {
+		font-size: 2em;
+		padding-top: 20px;
+	}
+
+	.header-top p {
+		font-size: .8em; 
+	}
+
+	.header-top img {
+		max-height: 120px;
+		width: 120px;
+		margin-right: 0px;
+	}
+
+	.header-bottom p {
+		font-size: 1em;
+		height: 40px;
+		margin-top: -15px;
+	}
+
+	.work h1 {
+		font-size: 2.2em;
+	}
+
+	.card p {
+		margin-top: 90px;
+		font-size: 1.5em;
+	}
+
+	.about {
+		text-align: center;
+	}
+
+	.stack h1 {
+		text-align: center;
+	}
+
+	.icons {
+		width: 70%;
+	}
+
+	.icons i {
+		font-size: 50px;
+	}
+
+	.icons p {
+		font-size: 15px;
+	}
+
+	.stack i {
+		font-size: 50px;
+		padding: 20px 10px 0px 10px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		nav li {
+			font-size: 1.1sem;
+			padding: 0 12px;
+			padding-bottom: 10px;
+		}
+
+		.work h1 {
+			margin-top: 25px;
+		}
+
+		.profiles p {
+			font-size: .8em;
+		}
+
+		.stack i {
+			font-size: 50px;
+		}
+
+		.stack-icons {
+			font-size: .5em;
+		}
+
+		.about h1 {
+			font-size: 1.6em;
+		}
+
+		.about p {
+			font-size: .8em;
+		}
+
+	}
+}

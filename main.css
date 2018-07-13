@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+:root {
+	--blue: #2b2f3d;
+	--green: #466874;
+	--cream: #f7f7e2;
+	--lbrown: #9f926e;
+	--dbrown: #4f4e47;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Open Sans;
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	background: none;
+	position: absolute;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	padding: 0 5%;
+	height: 100%;
+}
+
+nav li {
+	font-size: 1.3em;
+	display: inline-block;
+	padding: 0 15px;
+	text-transform: uppercase;
+	color: var(--cream);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+
+nav li:hover {
+	border-bottom: 2px solid var(--cream);
+	padding-bottom: 8px;
+}
+
+/*++++  HEADER STYLES  ++++*/
+
+.header {
+	padding-top: 80px;
+	height: 75vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(43, 48, 60, 0.7) 2%, rgba(43, 48, 60, 0.9) 100%), url('./images/background.jpg') center center no-repeat;
+	background-size: cover;
+	color: var(--cream);
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10% 0;
+	width: 70%;
+	margin-top: -10%;
+}
+
+.header-top h2 {
+	font-size: 4em;
+}
+
+.header-top p {
+	font-size: 1.5em;
+}
+
+.header-top img {
+	max-height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	margin-right: 25px; 
+}
+
+.header-bottom {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header-bottom p {
+	font-size: 1.4em;
+	height: 40px;
+	transition: 2s;
+	margin-top: -15px;
+	cursor: pointer;
+}
+
+#arrow {
+	font-size: 1.5em;
+	padding-top: 0;
+	transition: 1s;
+}
+
+/*++++  WORK  ++++*/
+
+.work h1 {
+	width: 90%;
+	margin: 75px auto 10px auto;
+	font-size: 3em;
+	color: var(--blue);
+}
+
+.work-row {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+
+.card {
+	width: 33.33%;
+	overflow: hidden;
+	transition: .5s;
+	transform-style: ease-out;
+	border: 1px solid grey;
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+}
+
+.card p {
+	opacity: 0;
+	position: absolute;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 120px;
+	padding: 5px 20px 5px 100px;
+	background: var(--blue);
+	box-shadow: 1px 1px 10px var(--blue);
+	transition: .5s;
+	transition-delay: .2s;
+	transform-style: ease-out;
+}
+
+#work-one {
+	margin-right: -1px; 
+}
+
+#work-three {
+	margin-left: -1px;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 1px 0px 40px grey;
+}
+
+
+
+/*++++ PROFILES ++++*/
+
+.profiles {
+	background: var(--blue);
+	color: white;
+	text-align: center;
+}
+
+.profiles p {
+	font-size: 20px;
+	padding: 10px 0 20px 0;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+	margin: 0 auto;
+	padding: 20px 0 50px 0;
+}
+
+.icons i {
+	color: white;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+.icons i:hover {
+	opacity: .5;
+	transition: .2s;
+}
+
+/*++++ABOUT++++*/
+
+#small {
+	color: var(--green);
+	font-size: 12px;
+	font-style: italic;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	color: var(--blue);
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 90%;
+}
+
+.about-text {
+	width: 50%;
+}
+
+.about-text2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.about-text2 a {
+	text-decoration: none;
+	color: var(--blue);
+	border: 2px solid var(--blue);
+}
+
+.about-text2 h2 {
+	padding-bottom: 20px; 
+}
+
+.about-text2 i {
+	font-size: 35px;
+	padding: 10px 45px;
+}
+
+.about-text2 i:hover {
+	background: var(--blue);
+	color: white;
+	transition: .2s;
+	transform-style: ease-in;
+}
+
+.stack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px 10px;
+	font-size: 1.2em;
+	width: 45%;
+	text-align: center;
+}
+
+.stack h1 {
+	margin-left: 30px;
+}
+
+.stack-icons {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: .7em;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.stack i {
+	color: var(--green);
+	text-shadow: 3px 3px 3px lightgrey;
+	font-size: 80px;
+	padding: 20px 10px 0px 10px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: var(--blue);
+	color: var(--cream);
+	padding: 20px 0;
+	font-size: 12px;
+}
+
+footer img {
+	height: 80px;
+	width: 80px;
+}
